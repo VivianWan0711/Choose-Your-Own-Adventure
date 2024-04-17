@@ -1,38 +1,9 @@
-Before you Begin (Extra Credit):
-================================
-Before we dive into the assignment, we want to note that there is extra
-credit on this assignment.  The extra credit is not for doing extra
-work, but rather for doing each Step in a timely fashion (by an intermediate
-deadline).   Please see the enclosed Extra-Credit.txt file for details.  
-
-
-A note about numbers:
-  We consider something a valid number iff the appropriate
-  strtoXXX (strtol, strtoll, strtoul, strtoull, etc) considers
-  it a valid number in its entirety.  So " 12" is valid (strtoXX
-  will convert the whole thing) but "12 " is not (strtoXX will
-  not convert the whole thing).
-
-A note about C++11:
-  Sometimes students want to use a feature of C++11.  If you write
-  code using C++11 features (and put appropriate compilation flags),
-  your code will be graded as C++11 code.  Among other things, this
-  means that you need to use the Rule of Five (instead of the Rule
-  of Three) and should make use of move semantics appropriately.
-  If you do not know what those things are, then you should not be
-  using C++11.
-
-A note about cheating:
-  Please don't do it.   This assignment is like an exam.
-  
-
 Choose Your Own Adventure
 ===========================================================================
 
-In this evaluative assignment, you will be writing a program that presents
-a "choose your own adventure" story (CYOA). For those of you not familiar
-with this type of story, a "choose your own adventure" book presents a
-story, but you do not read every page in order. Instead, pages end with a
+I wrote a program that presents a "choose your own adventure" story (CYOA). 
+For those of you not familiar with this type of story, a "choose your own adventure" 
+book presents a story, but you do not read every page in order. Instead, pages end with a
 choice of where to go. E.g. a page might end with 
 
  1. If you want to try to sneak past the sleeping dragon, turn to page 47.  
@@ -498,25 +469,3 @@ story like
 
 You may write as many test cases as you like, but you are limited to
 2 minutes of total compute time by the pregrader.
-
-Reminders
-===========================================================================
-
-Before the hard deadline, your code will be graded by the pregrader
-that runs your test cases. After the hard deadline, your code will be
-graded ONCE. You may run "grade" as many times as you like, but the
-last commit after which you run grade before the deadline will be your
-submission. Grading quality takes some time, so expect your real grade
-to take about a week to come back.
-
-When testing, you should think of error cases, corner cases, and
-design your own test inputs. Your code should valgrind without errors
-on all cases and without memory leaks on all success cases.
-
-This is an INDIVIDUAL assignment. You are only allowed to communicate
-regarding this assignment with an instructor or TA.
-
-Late Policy: As with all evaluative assignments, our late policy is
-that you may resubmit for a maximum of 70% up to one week after we
-return grades. Note that this policy DOES NOT apply if you receive a
-zero on the assignment due to academic misconduct.
